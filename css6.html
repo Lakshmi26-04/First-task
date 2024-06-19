@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" , content="width=device-width , intial-scale = 1.0" />
+        <title>User Registration</title>
+        <style>
+           
+            img{
+                margin-left:100px;
+            }
+            input[type=text],input[type=password]{
+                margin-left:60px;
+                width:600px;
+                padding:5px;
+            }
+            .main{
+                margin-top:10px;
+                width:750px;
+                background-color:rgb(14, 230, 14);
+                color:white;
+                margin-left:60px;
+                width:600px;
+                padding:5px;
+            }
+            .menu{
+                margin-left: 60px;
+                
+
+            }
+            div{
+                margin-left:400px;
+                margin-top:150px;
+            }
+            .bar{
+                background-color: lightgray;
+                width:600px;
+                height:50px;
+                position: relative;
+                margin-top: 0px;
+
+                
+                margin-left:60px;
+                
+                
+            }
+            .h{
+                
+                position: absolute;
+                width:60px;
+                background-color: red;
+                color: white;
+                bottom:0;
+                left:0;
+                border:none;
+                height:30px;
+
+
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="C:\Users\nelak\OneDrive\Desktop\Mern\WhatsApp Image 2024-06-13 at 21.32.33_9376bb31.jpg" alt="User photo">
+         <form>
+            <label for="UName" class="menu">Username</label><br>
+            <input type="text" id="UName" name="user name" placeholder="Enter Username"><br>
+            <label for="pwd" class="menu" >Password</label><br>
+            <input type="password" id="pwd" name="Password" placeholder="Enter Password"><br>
+            <button class="main" type="submit">Log in</button><br>
+
+
+            <input class="menu" type="checkbox" id="d" name="declaration" value="Bike" required checked>
+            <label for="d">Remember me</label><br>
+
+            <div class="bar">
+                <button class="h" type="cancel">Cancel</button><br>
+                <p  style="float:right;margin-bottom:10px;">Forgot <a href="#">Password?</a></p>
+            </div>
+
+         </form>
+        </div>
+        
+
+    </body>
+</html>
