@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" , content="width=device-width , intial-scale = 1.0" />
+        <title>Registration Form</title>
+        <style>
+            div>table{
+                width:350px;
+                background-color:#951452;
+                
+                position: absolute;
+                left:20px;
+                right:20px;
+                bottom:20px;
+                top:20px;
+                margin-left: 100px;
+                margin-top:10px;
+                height: 320px;
+               
+
+                
+            }
+            
+            table,th,td{
+                padding:5px;
+            }
+            label{
+                color:white;
+                
+            }
+            div{
+                width:600px;
+                background-color:#d8247b;
+                position:relative;
+                height:400px;
+                margin:150px 0 0 450px;
+            }
+            
+           
+          
+        </style>
+        <body>
+            <div>
+                <table>
+                
+                    <tr>
+                        <th><label for="name" >Name:</label></th>
+                        <td><input type="text" id="name" name="name" placeholder="your fullname.."></td>
+    
+                    </tr>
+                    <tr>
+                        <th><label for="Email" >Email:</label></th>
+                        <td><input type="email" id="Email" name="Email" placeholder="your email.."> </td>
+                    </tr>
+                    <tr>
+                        <th><label for="password" >Password:</label></th>
+                        <td><input type="password" id="password" name="password" > </td>
+                    </tr>
+                    <tr>
+                        <th><label for="phnNO" >Phone Number:</label></th>
+                        <td><input type="text" id="phnNO" name="phonenumber" > </td>
+                    </tr>
+
+                    <tr>
+                        <th style="color:white">Gender:</th>
+                        <td>
+                            <label><input type="radio" name="gender" value="male" >Male</label>
+                            <label><input type="radio" name="gender" value="Female" >Female</label>
+                            <label><input type="radio" name="gender" value="other" >Other</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="Language" >Language:</label></th>
+                        <td>
+                            <select id="Language" name="language">
+                                <option value="English">English</option>
+                                <option value="Telugu">Telugu</option>
+                                <option value="other">Other</option>
+                
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th><label for="ZC" >Zip Code:</label></th>
+                        <td><input type="text" id="ZC" name="zc"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="about" >About:</label></th>
+                        <td><input style="height: 50px;" type="textarea" id="about" name="about" placeholder="write about yourself.."></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" ><button style="width: 350px;height: 30px;font-size: medium;" type="Register"><b>Register</b></button></td>
+                    </tr>
+                    
+            
+
+                 </table>
+                 
+            
+           
+            </div>
+        </body>
+    </head>
+</html>
